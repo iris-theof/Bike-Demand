@@ -1,5 +1,5 @@
 # Bike-Demand
-In this repository I present a model that uses Machine Learning, to forecast Bike Demand based real data found at a [Kaggle dataset] 
+In this repository I present a model that uses Machine Learning, to forecast Bike Demand based real data found at Kaggle  
 (https://www.kaggle.com/c/bike-sharing-demand).
 ## Exploratory Data Analysis
 An initial exploratory analysis ran on the data indicated the following:
@@ -24,6 +24,7 @@ towards right (as there are more data points beyond Outer Quartile Limit), as sh
 addition to that, the fit for the count as a function of hour is far from linear, demonstrating lowest
 usage is late at night (with the minimum between 4–5 am) and the peaks are during 8–9 am and 5–7
 pm, which must correspond to rush hour.
+## Modelling
 * To account for the skewed distribution, a log transformation on 'count' after removing the
 outliers was taken, changing the distribution closer to normal.
 * As a next step, a variety of parametric and non-parametric predictive models were evaluated
