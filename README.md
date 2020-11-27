@@ -39,15 +39,16 @@ outliers was taken, changing the distribution closer to normal.
 ![After](https://github.com/iris-theof/Bike-Demand/blob/main/count_quantiles_after_log.png)
 * As a next step, a variety of parametric and non-parametric predictive models were evaluated
 based on their mean squared error on cross validation set to decide on the model with the best performance.
-| ML Algorithm  |  Mean squared error |
-| ------------- | --------------------|
-| LinearRegression  |0.38                |
-| Ridge              |0.38                |
-|   Lasso             |1.74                |
-|    DecisionTreeRegressor             |0.46                |
-|   GradientBoostingRegressor             |0.30                |
-|    RandomForestRegressor            |0.23                |
-|            BaggingRegressor        |0.26                |
+
+| ML Algorithm             |  Mean squared error |
+| -------------            | --------------------|
+| LinearRegression         |0.38                 |
+| Ridge                    |0.38                 |
+| Lasso                    |1.74                 |
+| DecisionTreeRegressor    |0.46                 |
+| GradientBoostingRegressor|0.30                 |
+| RandomForestRegressor    |0.23                 |
+| BaggingRegressor         |0.26                 |
 
 
      
