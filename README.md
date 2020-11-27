@@ -38,7 +38,8 @@ pm, which must correspond to rush hour.
 outliers was taken, changing the distribution closer to normal.
 ![After](https://github.com/iris-theof/Bike-Demand/blob/main/count_quantiles_after_log.png)
 * As a next step, a variety of parametric and non-parametric predictive models were evaluated
-based on their mean squared error on cross validation set to decide on the model with the best performance.
+based on their mean squared error on cross validation set in order to decide on the model with the best performance.
+It turned out that Random Forest had the smallest mean squarer error of 0.23.
 
 | ML Algorithm             |  Mean squared error |
 | -------------            | --------------------|
@@ -50,5 +51,9 @@ based on their mean squared error on cross validation set to decide on the model
 | RandomForestRegressor    |0.23                 |
 | BaggingRegressor         |0.26                 |
 
+* After tuning our Random Forest using highparameter tuning we observe that the temperature and whether is a working day or not are the most
+crucial factors on bike demand.
+
+![Bike_Demand](https://github.com/iris-theof/Bike-Demand/blob/main/Features.png)
 
      
