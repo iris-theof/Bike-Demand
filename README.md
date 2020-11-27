@@ -1,11 +1,11 @@
 # Bike-Demand
-In this repository I present a model that uses Machine Learning, to forecast Bike Demand based real data found at Kaggle  
+In this repository I present a model that uses Machine Learning, to forecast Bike Demand based real data from Kaggle  
 (https://www.kaggle.com/c/bike-sharing-demand).
 ## Exploratory Data Analysis
 An initial exploratory analysis ran on the data indicated the following:
 * No missing data were found
 * 'atemp' appear as highly correlated with 'temp', so it was removed from the dataset to avoid multicolinearity issues. The fields 'registered' and 'casual' were also removed as they would introduce data leakage in our model: we cannot know a priori whether a 'registered' or a 'casual' user will come along to rent a bike. 
-![Link to image](https://github.com/iris-theof/Bike-Demand/blob/main/correlation_matrix.pdf)
+![Correlation matrix](https://github.com/iris-theof/Bike-Demand/blob/main/correlation_matrix.png)
 
 Visualization of the data indicated several interesting points, summarized as follows:
 * The usage is different on work days versus weekends. The weekend
