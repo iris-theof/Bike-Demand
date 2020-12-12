@@ -17,7 +17,8 @@ on a cross validation set which we have taken out from the train.csv file. The r
 based only on time and date as it was the target of the kaggle competition.
 
 # Acknowledgments
-I would like to acknowledge my friend Dr. Maria Stounrana for valuable input on this project.
+I would like to acknowledge my friend Dr. Maria Stounrana for valuable input on this project. Kaggle is acknowledged for making available the
+database.
 
 # Main results summary
 ## Exploratory Data Analysis
