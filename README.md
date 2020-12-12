@@ -1,6 +1,25 @@
-# Bike-Demand
-In this repository I present a model that uses Machine Learning, to forecast Bike Demand based real data from Kaggle  
+# Installation
+Jupyter Notebook https://jupyter.org/install is the only prerequisit to run the project.
+
+# Project Motivation
+In this repository I present a model that uses Machine Learning, to forecast Bike Demand based on real data obtained from Kaggle  
 https://www.kaggle.com/c/bike-sharing-demand. The prediction is based on data like date, hour, holiday and weather condition.
+
+# File Description
+The main file is the Bike_sharing_kaggle.ipynb, where the statistical description and the model is implemented. The data are found
+on train.csv. The rest of the files are graphics useful for the statistical analysis and the prediction, produced when one runs the 
+notebook.
+
+# How to Interact with the Project
+Running the Jupyter Notebook Bike_sharing_kaggle.ipynb using the data from train.csv. Note that this notebook is not meant to provide a
+submission file based on the test data for the kaggle competition https://www.kaggle.com/c/bike-sharing-demand. The predictions are done
+on a cross validation set which we have taken out from the train.csv file. The reason for this is that we do not want to make predictions
+based only on time and date as it was the target of the kaggle competition.
+
+# Acknowledgments
+I would like to acknowledge my friend Dr. Maria Stounrana for valuable input on this project.
+
+# Main results summary
 ## Exploratory Data Analysis
 An initial exploratory analysis ran on the data indicated the following:
 * No missing data were found
